@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body    {
+                background-color: rgb(110, 202, 255, 0.574);
+            }
+            input   {
+                text-align: center;
+                font-size: 35px;
+                width: 400px;
+                height: 50px;
+                border-radius: 10px;
+                border: 0px;
+                background-color: rgb(110, 202, 255, 0.574);
+            }
+            button{
+                position: absolute;
+                top: 70%;
+                border: none;
+            }
+            button:hover    {
+                background-color: white;
+                color: rgb(110, 202, 255, 0.574);
+                border: solid rgb(110, 202, 255, 0.574);
+            }
+            #container  {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            #loginData  {
+                margin:0px auto;
+                margin-top: 50px;  
+                background-color: white;
+                height: 600px;
+                width: 600px;
+                border-radius: 45px;
+            }
+            #userName   {
+                position: absolute;
+                top: 25%;
+            }
+            #userPassword   {
+                position: absolute;
+                top: 50%;
+            }
+            #username   {
+                position: absolute;
+                top: 17%;
+            }
+            #password   {
+                position: absolute;
+                top: 42%;
+            }
+            .textContainer  {
+                font-family: monospace;
+                font-weight: bold;
+                background-color: rgb(110, 202, 255, 0.574);
+                border-radius: 5px;
+                text-align: center;
+                color: white;
+                font-size: 35px;
+                width: 300px;
+                height: 40px;
+            }
+        </style>
+        <script src="script.js" type="module" defer></script>
+        <title>Website for learning</title>
+    </head>
+    <body>
+        <div id="loginData">
+            <div id="container">
+                <div id="username" class="textContainer">Username</div>
+                    <input type="text" id="userName" placeholder="Username">
+                <div id="password" class="textContainer" >Password</div>
+                    <input type="text" id="userPassword" placeholder="Password">
+                <button id="loginButton" class="textContainer">login</button>
+            </div>
+        </div>
+   </body>
+</html>
