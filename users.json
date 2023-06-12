@@ -1,10 +1,1 @@
-{
-    "users": [
-        {
-            "firstname": "Michel",
-            "lastname": "Bartoszewicz",
-            "username": "Michel0223",
-            "password": "ExamplePassword123"
-        }
-    ]
-}
+{"users":[{"firstname":"Michel","lastname":"Bartoszewicz","username":"Michel0223","password":"ExamplePassword123"}]}

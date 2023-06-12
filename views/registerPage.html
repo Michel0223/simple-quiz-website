@@ -20,7 +20,7 @@
             }
             button{
                 position: absolute;
-                top: 70%;
+                top: 80%;
                 border: none;
             }
             button:hover    {
@@ -38,25 +38,33 @@
                 margin:0px auto;
                 margin-top: 50px;  
                 background-color: white;
-                height: 600px;
+                height: 700px;
                 width: 600px;
                 border-radius: 45px;
             }
             #userName   {
                 position: absolute;
-                top: 25%;
+                top: 20%;
             }
             #userPassword   {
                 position: absolute;
-                top: 50%;
+                top: 45%;
+            }
+            #userPasswordRepeat {
+                position: absolute;
+                top: 70%;
             }
             #username   {
                 position: absolute;
-                top: 17%;
+                top: 12%;
             }
             #password   {
                 position: absolute;
-                top: 42%;
+                top: 37%;
+            }
+            #passwordRepeat {
+                position: absolute;
+                top: 62%;
             }
             .textContainer  {
                 font-family: monospace;
@@ -80,7 +88,9 @@
                     <input type="text" id="userName" placeholder="Username">
                 <div id="password" class="textContainer" >Password</div>
                     <input type="text" id="userPassword" placeholder="Password">
-                <button id="loginButton" class="textContainer">login</button>
+                <div id="passwordRepeat" class="textContainer" >Repeat password</div>
+                    <input type="text" id="userPasswordRepeat" placeholder="passwordRepeat">
+                <button id="registerButton" class="textContainer">register</button>
             </div>
         </div>
    </body>
